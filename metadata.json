@@ -1,0 +1,5 @@
+{
+  "name": "RoboSim Dashboard",
+  "description": "A futuristic industrial robot simulation dashboard with real-time metrics and manual controls.",
+  "requestFramePermissions": []
+}
