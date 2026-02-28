@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# RoboSim
 
-# Run and deploy your AI Studio app
+RoboSim is a robotics simulation tool designed to facilitate the development and testing of robotic systems in a virtual environment.
 
-This contains everything you need to run your app locally.
+## Features
+- Realistic physics simulation
+- Multi-robot support
+- Customizable environments
+- Easy-to-use API for integrating with robotic frameworks
 
-View your app in AI Studio: https://ai.studio/apps/52ec2d2d-4a7b-4c14-ab58-c33c5032f3de
+## Installation
+To install RoboSim, follow these steps:
 
-## Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/youyouhe/RoboSim.git
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**Prerequisites:**  Node.js
+## Usage
+After installation, you can start using RoboSim by running:
+```bash
+python main.py
+```
 
+## Contributing
+Contributions are welcome! Please open an issue or make a pull request if you have suggestions or improvements.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## License
+RoboSim is released under the MIT License.
